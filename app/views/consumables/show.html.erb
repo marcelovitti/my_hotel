@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @consumable.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @consumable.price %>
+</p>
+
+<%= link_to 'Edit', edit_consumable_path(@consumable) %> |
+<%= link_to 'Back', consumables_path %>
